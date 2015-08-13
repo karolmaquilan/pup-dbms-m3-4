@@ -19,7 +19,7 @@
        {
             if (response.status = 'OK')
             {
-                var full_thesis = response.data.thesis_year + ' ' + response.data.thesis_title + response.data.thesis_abstract + response.data.thesis_adviser + response.data.thesis_section;
+                var full_thesis = response.data.thesis_year + ' ' + response.data.thesis_title;
                 $('.thesis-list').prepend('<li>' + full_thesis + '</li>')
             }
 
