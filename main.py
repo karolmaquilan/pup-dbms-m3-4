@@ -74,7 +74,7 @@ class APIThesisHandler(webapp2.RequestHandler):
     		'result': 'OK',
     		'data': 
             {
-    		'id': the.key.urlsafe(),
+    		'id': thesis.key.urlsafe(),
     		'thesis_year': thesis.thesis_year,
     		'thesis_title': thesis.thesis_title,
     		'thesis_abstract': thesis.thesis_abstract,

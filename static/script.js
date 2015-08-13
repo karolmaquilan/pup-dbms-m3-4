@@ -47,13 +47,10 @@
         });
     }
 
-    loadAllthesis();
+   	loadAllthesis();
     $('.create-form').submit(onFormSubmit);
-  
-    $(document).on('click', '#remove',function()
-    {
-        $(this).closest('li').remove(); 
-    }
-    );
+
+  	
+
 
 })(jQuery)
